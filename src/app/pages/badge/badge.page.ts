@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./badge.page.scss'],
 })
 export class BadgePage implements OnInit {
+  notificacoes: number = 106;
 
   constructor() { }
-// eslint-disable-next-line @typescript-eslint/member-ordering
-notificacoes: number = 106;
+
   ngOnInit() {
   }
 

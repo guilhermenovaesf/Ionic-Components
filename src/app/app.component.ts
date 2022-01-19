@@ -13,6 +13,8 @@ export class AppComponent {
     { title: 'Action-Sheet', url: '/actionsheet', icon: 'alert' },
     { title: 'Badge', url: '/badge', icon: 'alert' },
     { title: 'Card', url: '/card', icon: 'alert' },
+    { title: 'Checkbox', url: '/checkbox', icon: 'alert' },
+    { title: 'Chip', url: '/chip', icon: 'alert' },
 
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
