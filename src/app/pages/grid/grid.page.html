@@ -1,0 +1,164 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-button slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-button>
+    <ion-title>Grid</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h3>Grid posssui 12 colunas</h3>
+  <ion-grid>
+    <ion-row>
+      <ion-col> 1</ion-col>
+      <ion-col> 2</ion-col>
+      <ion-col> 3</ion-col>
+      <ion-col> 4</ion-col>
+      <ion-col> 5</ion-col>
+      <ion-col> 6</ion-col>
+      <ion-col> 7</ion-col>
+      <ion-col> 8</ion-col>
+      <ion-col> 9</ion-col>
+      <ion-col> 10</ion-col>
+      <ion-col> 11</ion-col>
+      <ion-col> 12</ion-col>
+    </ion-row>
+
+    <h3>Variando o tamanho das colunas</h3>
+    <ion-row>
+      <ion-col>Coluna 1</ion-col>
+      <ion-col>Coluna 2</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Coluna 1</ion-col>
+      <ion-col>Coluna 2</ion-col>
+      <ion-col>Coluna 3</ion-col>
+      <ion-col>Coluna 4</ion-col>
+    </ion-row>
+
+<h3>Pulando colunas para direita</h3>
+<ion-row>
+  <ion-col size="3">Coluna 1</ion-col>
+  <ion-col size="3" offset="3">Coluna 2</ion-col>
+  <ion-col size="2" offset="1">Coluna 3</ion-col>
+</ion-row>
+
+<h3>Alinhamneto escada</h3>
+<ion-row>
+  <ion-col class="ion-align-self-start">
+    <div>
+      1 of 4 (Start)
+    </div>
+  </ion-col>
+  <ion-col class="ion-align-self-center">
+    <div>
+      2 of 4 (Center row)
+    </div>
+  </ion-col>
+  <ion-col class="ion-align-self-end">
+    <div>
+      3 of 4 (End)
+    </div>
+  </ion-col>
+  <ion-col>
+    <div>
+      4 of 4
+      <br># aumenta
+      <br># linha
+      <br>#
+    </div>
+  </ion-col>
+</ion-row>
+
+<h3>Alinhamneto topo</h3>
+<ion-row>
+  <ion-col class="ion-align-self-start">
+    <div>
+      1 of 4 (Start)
+    </div>
+  </ion-col>
+  <ion-col class="ion-align-self-start">
+    <div>
+      2 of 4 (Center row)
+    </div>
+  </ion-col>
+  <ion-col class="ion-align-self-start">
+    <div>
+      3 of 4 (End)
+    </div>
+  </ion-col>
+  <ion-col>
+    <div>
+      4 of 4
+      <br># aumenta
+      <br># linha
+      <br>#
+    </div>
+  </ion-col>
+</ion-row>
+
+<h3>Alinhamneto meio</h3>
+<ion-row>
+  <ion-col class="ion-align-self-center">
+    <div>
+      1 of 4 (Start)
+    </div>
+  </ion-col>
+  <ion-col class="ion-align-self-center">
+    <div>
+      2 of 4 (Center)
+    </div>
+  </ion-col>
+  <ion-col class="ion-align-self-center">
+    <div>
+      3 of 4 (End)
+    </div>
+  </ion-col>
+  <ion-col>
+    <div>
+      4 of 4
+      <br># aumenta
+      <br># linha
+      <br>#
+    </div>
+  </ion-col>
+</ion-row>
+
+<h3>Alinhamneto end</h3>
+<ion-row>
+  <ion-col class="ion-align-self-end">
+    <div>
+      1 of 4 (Start)
+    </div>
+  </ion-col>
+  <ion-col class="ion-align-self-end">
+    <div>
+      2 of 4 (Center)
+    </div>
+  </ion-col>
+  <ion-col class="ion-align-self-end">
+    <div>
+      3 of 4 (End)
+    </div>
+  </ion-col>
+  <ion-col>
+    <div>
+      4 of 4
+      <br># aumenta
+      <br># linha
+      <br>#
+    </div>
+  </ion-col>
+</ion-row>
+
+<ion-row>
+<ion-col size-sm="12" size-md="6" size-lg="4" size-xl="3" size-xs="12">
+  <div>
+    Grid responsividade por aparelho
+  </div>
+</ion-col>
+</ion-row>
+
+  </ion-grid>
+</ion-content>

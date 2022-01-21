@@ -15,6 +15,11 @@ export class AppComponent {
     { title: 'Card', url: '/card', icon: 'alert' },
     { title: 'Checkbox', url: '/checkbox', icon: 'alert' },
     { title: 'Chip', url: '/chip', icon: 'alert' },
+    { title: 'Content', url: '/content', icon: 'alert' },
+    { title: 'DateTime', url: '/datetime', icon: 'alert' },
+    { title: 'Fab', url: '/fab', icon: 'alert' },
+    { title: 'Grid', url: '/grid', icon: 'alert' },
+
 
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
