@@ -63,6 +63,18 @@ const routes: Routes = [
   {
     path: 'grid',
     loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
+  },
+  {
+    path: 'infinitescroll',
+    loadChildren: () => import('./pages/infinitescroll/infinitescroll.module').then( m => m.InfinitescrollPageModule)
+  },
+  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+  },
+  {
+    path: 'list',
+    loadChildren: () => import('./pages/list/list.module').then( m => m.ListPageModule)
   }
 ];
 

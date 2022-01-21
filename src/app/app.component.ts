@@ -19,6 +19,9 @@ export class AppComponent {
     { title: 'DateTime', url: '/datetime', icon: 'alert' },
     { title: 'Fab', url: '/fab', icon: 'alert' },
     { title: 'Grid', url: '/grid', icon: 'alert' },
+    { title: 'Infinite Scroll', url: '/infinitescroll', icon: 'alert' },
+    { title: 'Input', url: '/input', icon: 'alert' },
+    { title: 'List', url: '/list', icon: 'alert' },
 
 
   ];
