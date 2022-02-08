@@ -22,6 +22,10 @@ export class AppComponent {
     { title: 'Infinite Scroll', url: '/infinitescroll', icon: 'alert' },
     { title: 'Input', url: '/input', icon: 'alert' },
     { title: 'List', url: '/list', icon: 'alert' },
+    { title: 'ProgressBar', url: '/progressbar', icon: 'alert' },
+    { title: 'Refresher', url: '/refresher', icon: 'alert' },
+    { title: 'Reorder', url: '/reorder', icon: 'alert' },
+
 
 
   ];
