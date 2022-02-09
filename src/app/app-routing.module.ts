@@ -87,6 +87,14 @@ const routes: Routes = [
   {
     path: 'reorder',
     loadChildren: () => import('./pages/reorder/reorder.module').then( m => m.ReorderPageModule)
+  },
+  {
+    path: 'select',
+    loadChildren: () => import('./pages/select/select.module').then( m => m.SelectPageModule)
+  },
+  {
+    path: 'toggle',
+    loadChildren: () => import('./pages/toggle/toggle.module').then( m => m.TogglePageModule)
   }
 ];
 

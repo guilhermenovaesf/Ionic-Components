@@ -25,6 +25,8 @@ export class AppComponent {
     { title: 'ProgressBar', url: '/progressbar', icon: 'alert' },
     { title: 'Refresher', url: '/refresher', icon: 'alert' },
     { title: 'Reorder', url: '/reorder', icon: 'alert' },
+    { title: 'Select', url: '/select', icon: 'alert' },
+    { title: 'Toggle', url: '/toggle', icon: 'alert' },
 
 
 
